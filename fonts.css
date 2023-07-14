@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "oswald bold";
+    src: url("fonts/Oswald/Oswald-Bold.ttf");
+}
+@font-face {
+  font-family: "oswald light";
+  src: url("fonts/Oswald/Oswald-Light.ttf");
+}
+@font-face {
+  font-family: "open bold";
+  src: url("fonts/Open_Sans/OpenSans-Bold.ttf");
+}
+@font-face {
+  font-family: "open regular";
+  src: url("fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+@font-face {
+  font-family: "open italic";
+  src: url("fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf");
+}
+@font-face {
+  font-family: "awesome";
+  src: url("fonts/awesome/fontawesome-webfont.ttf");
+}

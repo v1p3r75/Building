@@ -1,0 +1,83 @@
+body{width: 100%; font-family: "oswald bold"; position: relative;}
+header{position: relative; height: 60px;}
+.top {z-index: 10000; position: fixed; top: 0; left: 0; height: 60px; background: white; padding: 20px 5% 0 5%; width: 100%; box-sizing: border-box;}
+.top i img{height: 25px;}
+.top i, .top li{display: inline-block;} .top li{margin-left: 5px;}
+.navigation img{width: 24px ; height: 24px;}
+.banner{height: 700px; background-image: url("images/image-banner.jpg"); background-size: 100% 100%;}
+.banner h1{margin: 0; color: #ff6918; font-size: 5.5rem; line-height: 90px;}
+.banner p{font-family: "open italic"; margin: 40px 0 40px 0; opacity: 0.4}
+.banner-contenair{width: 37%; padding: 170px 0 0 5%;}
+.input-text{display: block; width: 70%; height: 35px; padding: 8px; border: none; font-family: "open italic"; font-size: 16px;
+box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);}
+.input-send{display: block; width: 30%; height: 35px; background: #f63f06; padding: 8px; text-align: center; color: white; line-height: 30px;
+box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12); cursor: pointer;}
+.input-send:hover{color:white;box-shadow: 0px 3px 6px -2px rgba(0,0,0,0.2), 0px 5px 9px 0px rgba(0,0,0,0.14), 0px 3px 6px 0px rgba(0,0,0,0.12);}
+section{padding: 0}
+.schema{padding: 5% 0 5% 5%; font-family: "open regular"}
+.schema h1, .schema h2{font-family: "oswald bold";}
+.schema a{background: white; width: 64px;height: 64px; text-align: center;  border-radius: 80px; font-size: 40px; line-height: 64px;}
+.schema a::after{font-family: "awesome"; content: "\f054"; }
+.schema h1{font-size: 65px; margin: 5px;} .schema h2{font-size: 22px;}
+.design, .document, .construction, .build{width: 21%; height: 350px; color: white; padding: 15px 0 5px 15px;
+box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);}
+.design{background: #ff6918; } .document{background:#f43702 } .construction{background: #292d33} .build{background: #555c66}
+.design a{display: block; color: #ff6918;}
+.document a{display: block; color: #f43702;}
+.construction a{display: block; color: #292d33;}
+.build a{display: block; color: #555c66;}
+.speak{background: #f2f2f2; font-family: "open regular"; padding: 40px 0 40px 0;}
+.speak h1{font-family: "oswald bold"; font-size: 65px; color: #ff6918; margin: 0px 0 10px 0;}
+.speak p{font-size: 20px; opacity: 0.7}
+.speak a{display: inline-block; color: white; background: #f63f06;width: 15%; padding: 15px; font-size: 20px;
+box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);}
+.vision{height: 700px; background-color: #ff6918; padding: 5%;} .vision i {margin: 0;}
+.vision-int{padding-left: 30px; background: white; width: 90%; height: 100%; font-family: "open regular";
+box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);}
+.visionOne {width: 30%; height: 100%;}
+.visionTwo{width: 70%; height: 100%;}
+.v1 img{width: 100%; height: 100%;}
+.v2 img{width: 100%; height: 50%;}
+.vision ul{padding-left: 20px; margin: 5px 0 20px 0;}
+.vision h1{font-family: "oswald bold"; color: #ff6918; font-size: 55px; margin: 5px 0 0 0;}
+.more{display: block; color: black; margin-top: 30px; border-bottom: 3px solid black; width: 100px;}
+.lap{width: 100%; height: 50%; background-image: url("images/lap.png"); background-repeat: no-repeat; background-size: 100% 100%;}
+.home{width: 100%; height: 50%; background-image: url("images/home.png"); background-repeat: no-repeat; background-size: 100% 100%;}
+.menu{z-index: 333333535;height: 100% vh; text-align: center;position: absolute; width: 20%;height: 100%; top : 0;background: rgba(0,0,0,0.95); color: white;left: -20%; transition: all 550ms ease-out;}
+.case{font-family: "open regular"; height: 700px; background-image: url("images/man.png"); background-repeat: no-repeat; background-position: right; }
+.case-int{width: 35%; margin-left: 10%; padding-top: 10%;}
+.case h1{font-family: "oswald bold"; font-size: 60px; color: #ff6918; margin: 0}
+.case a, .company a{display: block; color: white;text-align: center;background: #f63f06;width: 40%; padding: 15px; font-size: 20px;
+box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);}
+.case a:hover{color:white;box-shadow: 0px 3px 6px -2px rgba(0,0,0,0.2), 0px 5px 9px 0px rgba(0,0,0,0.14), 0px 3px 6px 0px rgba(0,0,0,0.12);}
+section{padding: 0}
+.work{font-family: "open regular"; position: relative; text-align: center; height: 700px; background-image: url("images/travel.jpg");
+background-repeat: no-repeat; background-size: 100% 100%; margin-bottom: 200px;}
+.building, .planning , .about{position: absolute; width: 28%; background: white; height: 300px;bottom: -150px; border: 1px solid silver;
+box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12); text-align: center;
+overflow: auto;}
+.building{left: 5%; }
+.planning{left: 36%; right: 36%;}
+.about{right: 5%;}
+.company{ background: #f2f2f2; height: 400px; padding: 10% 0 0 5%}
+.companyOne h1{font-family: "oswald bold"; color: #ff6918; font-size: 55px;margin: 0; cursor: pointer;}
+.companyOne h1 span{border-top: 10px solid #ff6918;}
+.companyOne{width: 70%; font-family: "open regular"; text-align: justify;}
+.companyTwo{width: 30%;}
+footer{height: 750px; background-image: url("images/bureau.jpg"); background-size: 100% 100%; padding: 5%;}
+.footer-int{width: 90%; height: 90%; background: white; font-family: "open regular";box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);}
+.touch h1{font-family: "oswald bold"; font-size: 60px; color: #ff6918; }
+.touch h1 span{border-bottom: 5px solid #ff6918;}
+.foot-contenair{height: 50%; padding: 20px 0 0 5%; font-family: "open bold"}
+.message input, .message textarea{display: block; border: 1px solid rgba(0,0,0,0.3)}
+.email, .text, textarea{width: 75%; height: 40px; padding: 10px; margin-top: 10px; font-family: "open regular"; font-size: 16px}
+.message a {display: block; width: 30%; height: 35px; background: #f63f06; padding: 8px; text-align: center; color: white;line-height: 30px;
+box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12); cursor: pointer; margin-top: 30px;}
+.message a:hover{color:white;box-shadow: 0px 3px 6px -2px rgba(0,0,0,0.2), 0px 5px 9px 0px rgba(0,0,0,0.14), 0px 3px 6px 0px rgba(0,0,0,0.12);}
+section{padding: 0}
+.copyright{background:#333333; height: 200px; font-family: "open regular"; padding-top: 50px}
+.copyright p{margin: 0 0 30px 0; color: white;}
+.copyright a{color: #334f93;}
+.clic a{display: block; color: white; padding: 8px; transition: all 500ms ease-in-out;}
+.clic a:hover{background: white; color: black;}
+.close::before{font-family: awesome; content: "\2715";}
